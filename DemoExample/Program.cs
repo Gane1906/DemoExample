@@ -6,5 +6,7 @@ class Program
     {
         Addition add = new Addition();
         add.add();
+        GreatestNumber gn=new GreatestNumber();
+        gn.great();
     }
 }

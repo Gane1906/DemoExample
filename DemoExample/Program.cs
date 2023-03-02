@@ -1,3 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Ganesh Doppani");
+﻿using DemoExample;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Addition add = new Addition();
+        add.add();
+    }
+}

@@ -8,5 +8,7 @@ class Program
         add.add();
         GreatestNumber gn=new GreatestNumber();
         gn.great();
+        PrimeRange pr = new PrimeRange();
+        pr.Prime();
     }
 }
